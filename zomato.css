@@ -106,7 +106,7 @@ nav .head-lists ul li a {
 }
 .head-search .left-search i{
     color: red;
-    margin-left: 5px;
+    margin-left: 10px;
     font-size: 20px;
     padding: 10px;
 }
@@ -150,8 +150,8 @@ nav .head-lists ul li a {
     text-align: left;
     font-size: 1.5rem;
     font-weight: lighter;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
     margin-left: 90px;
     font-family: 'Poppins', sans-serif;
 }
@@ -287,7 +287,7 @@ nav .head-lists ul li a {
     position: relative;
     transition: transform 0.5s;
     margin-top: 23px;
-    margin-right: 60px;
+    margin-right: 73px;
 }
 .section-1-collection-1 .cc3:hover{
     transform: scale(1.05);
@@ -422,8 +422,8 @@ nav .head-lists ul li a {
     position: relative;
     transition: transform 0.5s;
     margin-top: 20px;
-    margin-right: 30px;
-    margin-left: 70px;
+    margin-right: 89px;
+    margin-left: 80px;
 }
 .section-1-collection-2 .cc6:hover{
     transform: scale(1.05);
@@ -463,8 +463,8 @@ nav .head-lists ul li a {
     transition: transform 0.5s;
     position: relative;
     margin-top: 20px;
-    margin-right: 42px;
-    margin-left: 56px;
+    margin-right: 67px;
+    margin-left: 10px;
 }
 .section-1-collection-2 .cc7:hover{
     transform: scale(1.05);
@@ -645,14 +645,17 @@ nav .head-lists ul li a {
 }
 .popular-location{
     width: 85%;
-    margin: 30px auto;
+    margin: 20px auto;
     text-align: center;
 }
 .popular-location h1{
     text-align: left;
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: lighter;
     margin-bottom: 20px;
+}
+.popular-location span{
+    font-weight: 800;
 }
 .popularity{
     width: 100%;
@@ -670,6 +673,7 @@ nav .head-lists ul li a {
     align-items: center;
     justify-content: space-between;
     border-radius: 8px;
+    cursor: pointer;
 }
 .popularity .popular-box a{
     text-decoration: none;
@@ -731,6 +735,7 @@ nav .head-lists ul li a {
     margin-bottom: 30px;
     border-radius: 8px;
     color: #979797;
+    cursor: pointer;
 }
 .options button{
     background: 0;
@@ -754,8 +759,7 @@ nav .head-lists ul li a {
      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
 }
 .footer{
-    width: 100%;
-    background-color: black
+    background-color: black;
 }
 
 .footer .f-container{
@@ -767,6 +771,7 @@ nav .head-lists ul li a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-right: 30px;
 }
 .footer-top img{
     width: 200px;
@@ -841,10 +846,10 @@ nav .head-lists ul li a {
 }
 .appsy .appimage{
     width: 60%;
-
     padding-top: 50px;
     padding-right: 80px;
     padding: 3px;
+    margin-right: 60px;
 }
 .appsy .appimage img{
     width: 100%;
@@ -852,16 +857,17 @@ nav .head-lists ul li a {
 .appsy .get{
     width: 60%;
     padding: 0 20px;
+    margin-right: 80px;
 }
 .appsy .get h2{
     font-size: 2.5rem;
     font-weight: 600;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     text-align: left;
 }
 .appsy .get p{
-    font-size: 1.2rem;
-    font-weight: lighter;
+    font-size: 1rem;
+    font-weight: 600;
     margin-bottom: 30px;
     text-align: left;
 }
@@ -912,9 +918,5 @@ nav .head-lists ul li a {
      box-shadow: 0 8px 10px rgba(0, 0, 0, 0.6);
 }
 .discount img:hover{
-    transform: scale(1.05);
-}
-.fc{
-    background-color: black;
-    margin: auto;
+    transform: scale(1.01);
 }
